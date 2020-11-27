@@ -18,7 +18,7 @@ public class ED {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int opcion, num, num1;
+                int opcion, num, num1;
         Scanner teclado = new Scanner(System.in);
         do {
             System.out.println("--- MENU ENTORNOS DE DESARROLLOS ---");
@@ -50,13 +50,7 @@ public class ED {
 
                     break;
                 case 4:
-                    System.out.println("Introduce un numero: ");
-                    num1=teclado.nextInt();
-                    if (num1/2==0){
-                        System.out.println("El numero es par");
-                    }else{
-                        System.out.println("El numero es impar");
-                    }
+                  
                     
                     break;
                 case 5:
@@ -69,6 +63,6 @@ public class ED {
         } while (opcion != 6);
         
     }
-    }
+}
     
 
